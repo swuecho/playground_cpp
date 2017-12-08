@@ -4,9 +4,10 @@
 
 struct S {
     S(): value(5) {}
-    int value;
+    int value = 5;
 };
 
 int  main() {
-    return S().value;
+    S s ;
+    return s.value;
 }
